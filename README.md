@@ -11,7 +11,7 @@ Back picture
 
 
 
-Hardware configuration
+* Hardware configuration
 
 
 - Logitech Brio 4k pro *2
@@ -22,40 +22,65 @@ Hardware configuration
 
 
 
-==============================================================================================================================================
+------------------------------------------------
 
 
 
-Hardware Info
+* Hardware Info
 
 
 1. RRRP robot arm used for strokes
+
 RRRP mechanisms to simulate human stroke
 
+
+
+
 2. Racket with batteries
+
 Batteries are stored at edges of the racket to improve moment of inertia to ensure the ball hit by the racket to move normal to racket plane
 
+
+
+
 3. Two cameras with distance
+
 Used to achieve stereo vision
 
 
 
-==============================================================================================================================================
+------------------------------------------------
 
 
 
-Software Info
+* Software Info
 
 
 1. Multi-threading used to copy frames from cameras
+
 As opencv always waits for camera to get next image, multi-threading is used to save time.
 
+
+
+
 2. Ball detection by inRange method and findContour
+
 Gets binary image using inRange method and get masked region using findContour
 
+
+
+
 3. Stereo vision used to get ball distance
+
 From pixel disparity read from two cameras, calculate distance of the ball
 
+
+
+
 4. Linear regression used to calculate when the ball reaches to robot
+
 And also update the timing as each frame is updated
+
+
+
 
