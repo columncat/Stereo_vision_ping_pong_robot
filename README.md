@@ -12,6 +12,8 @@ Back picture
 
 
 Hardware configuration
+
+
 - Logitech Brio 4k pro *2
 - Dynamixel XM430 *2
 - Dynamixel MX-64 *2
@@ -20,7 +22,13 @@ Hardware configuration
 
 
 
+==============================================================================================================================================
+
+
+
 Hardware Info
+
+
 1. RRRP robot arm used for strokes
 RRRP mechanisms to simulate human stroke
 
@@ -32,7 +40,13 @@ Used to achieve stereo vision
 
 
 
+==============================================================================================================================================
+
+
+
 Software Info
+
+
 1. Multi-threading used to copy frames from cameras
 As opencv always waits for camera to get next image, multi-threading is used to save time.
 
