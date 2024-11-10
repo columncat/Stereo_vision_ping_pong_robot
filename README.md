@@ -2,6 +2,8 @@
 Ping pong robot using stereo vision with linear actuator and dynamixel arm.
 GIST의 2023 창의공학 경진대회에 참여한 부산대의 Pusan Ping Pong 팀의 코드입니다.
 
+
+아래의 이미지를 클릭하시면 영상으로 이동합니다.
 [![GIST 2023 창의공학 경진대회 PPP팀 시연 영상](https://img.youtube.com/vi/FdBpEktACxE/0.jpg)](https://www.youtube.com/watch?v=FdBpEktACxE)
 
 Front picture
